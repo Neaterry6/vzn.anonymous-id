@@ -18,11 +18,12 @@ This starts:
 - `/` landing page
 - `/signup` sign up page
 - `/login` login page
-- `/feed` post-login feed page
+- `/feed` post-login feed page + canvas card post creator
 - `/profile` profile settings page
 - `/inbox` anonymous inbox page
 - `/dashboard` weekly user stats dashboard
 - `/group-chat` global anonymous group chat
+- `/about` about + creator section
 
 ## Key features
 
@@ -31,4 +32,9 @@ This starts:
 - Real-time group chat powered by WebSockets
 - Message types: text, image upload preview, voice-note stub bubble
 - Per-message reactions: Love, Like, Angry (live updates)
+- Feed canvas card editor using `react-konva` + `konva`
 - Anonymous aliases for chat users
+
+## Creator
+
+- GitHub: `https://github.com/your-github-username`

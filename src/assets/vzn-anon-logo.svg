@@ -1,12 +1,18 @@
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="vznGradient" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="20" y1="16" x2="142" y2="146" gradientUnits="userSpaceOnUse">
       <stop stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0EA5A4"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="52" y1="36" x2="108" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#DDE7FF" stop-opacity="0.9"/>
     </linearGradient>
   </defs>
-  <rect x="8" y="8" width="112" height="112" rx="30" fill="#11152A"/>
-  <rect x="8" y="8" width="112" height="112" rx="30" stroke="url(#vznGradient)" stroke-width="4"/>
-  <path d="M34 38L50 90L64 56L78 90L94 38" stroke="url(#vznGradient)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="64" cy="34" r="6" fill="#E9ECFF"/>
+  <rect x="10" y="10" width="140" height="140" rx="38" fill="#0D1326"/>
+  <rect x="10" y="10" width="140" height="140" rx="38" stroke="url(#bg)" stroke-width="5"/>
+  <circle cx="80" cy="78" r="34" fill="url(#orb)"/>
+  <path d="M55 63L68 96L80 75L92 96L105 63" stroke="url(#bg)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 118C64 123 72 126 80 126C88 126 96 123 102 118" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="80" cy="38" r="6" fill="#FDE68A"/>
 </svg>

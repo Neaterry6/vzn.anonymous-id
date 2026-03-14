@@ -12,6 +12,7 @@ const navItems = [
   { to: '/login', label: 'Log In', icon: '🔐' },
   { to: '/dashboard', label: 'Dashboard', icon: '📊' },
   { to: '/group-chat', label: 'Group Chat', icon: '💬' },
+  { to: '/about', label: 'About', icon: 'ℹ️' },
 ];
 
 export default function Header({ title }: HeaderProps) {

@@ -7,6 +7,7 @@ import ProfilePage from './pages/ProfilePage';
 import InboxPage from './pages/InboxPage';
 import DashboardPage from './pages/DashboardPage';
 import GroupChatPage from './pages/GroupChatPage';
+import AboutPage from './pages/AboutPage';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Route path="/inbox" element={<InboxPage />} />
       <Route path="/dashboard" element={<DashboardPage />} />
       <Route path="/group-chat" element={<GroupChatPage />} />
+      <Route path="/about" element={<AboutPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

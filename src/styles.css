@@ -410,6 +410,48 @@ textarea {
 .voice-bars span:nth-child(4) { height: 15px; }
 .voice-bars span:nth-child(5) { height: 8px; }
 
+
+.muted-note { color: var(--muted); }
+
+.canvas-tools {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.canvas-wrap {
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.feed-posts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.feed-post-card {
+  border: 1px solid var(--border);
+  background: color-mix(in oklab, var(--card) 88%, var(--bg));
+  border-radius: 14px;
+  padding: 0.7rem;
+}
+
+.feed-post-card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.feed-post-card p {
+  margin: 0.55rem 0 0.35rem;
+}
+
+.feed-post-card small {
+  color: var(--muted);
+}
 footer { text-align: center; color: var(--muted); padding: 1rem; }
 
 @media (max-width: 900px) {
@@ -456,6 +498,8 @@ footer { text-align: center; color: var(--muted); padding: 1rem; }
 
   .stats-grid { grid-template-columns: 1fr; }
   .chart-row { gap: 0.4rem; min-height: 160px; padding: 0.6rem; }
+  .canvas-tools { grid-template-columns: 1fr; }
+  .feed-posts { grid-template-columns: 1fr; }
 
   .chat-page-wrap { padding: 0; }
   .chat-shell { border-radius: 0; border: 0; width: 100%; min-height: 100vh; }
