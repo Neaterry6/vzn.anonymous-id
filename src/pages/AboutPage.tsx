@@ -16,7 +16,7 @@ export default function AboutPage() {
         <section className="panel">
           <h2>Creator</h2>
           <p>
-            Creator GitHub: <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">@your-github-username</a>
+            Creator GitHub: <a href="https://github.com/Neaterry6" target="_blank" rel="noreferrer">@Neaterry6</a>
           </p>
           <p className="muted-note">Replace this GitHub link with your exact profile URL if you want your live handle shown.</p>
         </section>

@@ -26,7 +26,7 @@ export default function LandingPage() {
       </main>
       <footer>
         <p>After login you can use feed, profile, inbox, dashboard stats, and anonymous group chat.</p>
-        <p>Creator GitHub: <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">@your-github-username</a></p>
+        <p>Creator GitHub: <a href="https://github.com/Neaterry6" target="_blank" rel="noreferrer">@Neaterry6</a></p>
       </footer>
     </>
   );

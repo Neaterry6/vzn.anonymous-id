@@ -49,7 +49,9 @@ export default function GroupChatPage() {
 
   useEffect(() => {
     const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
-    const socket = new WebSocket(`${protocol}://localhost:3002`);
+    const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+    const wsUrl = isLocal ? `${protocol}://localhost:3002` : `${protocol}://${window.location.host}/ws`;
+    const socket = new WebSocket(wsUrl);
     socketRef.current = socket;
 
     socket.onopen = () => setSocketConnected(true);
